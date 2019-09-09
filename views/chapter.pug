@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  include ./components/novelnav
+  div.chapter-content
+    != content
+  include ./components/novelnav
+    

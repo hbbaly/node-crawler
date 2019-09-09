@@ -1,0 +1,56 @@
+h1{
+  width: 100%;
+  line-height: 1.5;
+  text-align: center;
+}
+.novel-header{
+  min-width: 1200px;
+}
+.novel-info{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.novel-img{
+  margin-right: 20px;
+}
+.novel-author{
+  font-size: 20px;
+}
+.last-update{
+  font-size: 16px;
+}
+.last-chapter{
+  font-size: 16px;
+}
+.novel-intro{
+  font-size: 14px;
+}
+
+.novel-content{
+  margin: 40px 0;
+}
+.novel-chapter{
+  display: flex;
+  flex-wrap: wrap;
+}
+.novel-chapter-list{
+  width: 400px;
+  text-align: left;
+  padding: 10px 0;
+}
+
+
+.chapter-nav{
+  margin: 30px 0;
+}
+.chapter-nav-wrapper{
+  display: flex;
+  align-content: center;
+}
+.chapter-nav-list{
+  width: 33.33%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}

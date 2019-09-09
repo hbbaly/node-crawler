@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  div.novel-header
+    h1= content.title
+    div.novel-info
+      img.novel-img(src=content.img)
+      div.novel-cont
+        p.novel-author= content.author
+        p.last-update 最近更新：#{content.last_update}
+        p.last-chapter 最新章节：#{content.last_chaper}
+        p.novel-intro 本书简介：#{content.info}
+  
+  div.novel-content
+    ul.novel-chapter
+      - for (var i = 0; i < content.chaper.length; i++)
+        li.novel-chapter-list
+          a(href= category +'/'+ content.chaper[i].num)= content.chaper[i].title

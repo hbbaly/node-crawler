@@ -1,0 +1,10 @@
+div.chapter-nav
+    ul.chapter-nav-wrapper
+      -if (prev)
+        li.chapter-nav-list 
+          a(href= prev) 上一章
+      li.chapter-nav-list 
+        a(href= '/'+type+'/'+category) 章节目录
+      -if (next) 
+        li.chapter-nav-list
+          a(href= next) 下一章
