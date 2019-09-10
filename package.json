@@ -6,7 +6,7 @@
     "start": "nodemon bin/www",
     "dev": "./node_modules/.bin/nodemon bin/www",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "crawler": "node novel/crawler"
+    "crawler": "node novel/crawler-auto"
   },
   "dependencies": {
     "axios": "^0.19.0",
